@@ -16,3 +16,6 @@ variable "instance_name" {
   default     = "Provisioned by Terraform"
 }
 
+variable "subnet_id" {
+  description = "Subnet for the ec2 instance"
+}
